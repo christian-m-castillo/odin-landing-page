@@ -84,6 +84,10 @@ div {
   padding-right: 0vmin;
 }
 
+.hero-button-anchor {
+  text-decoration: none;
+}
+
 
 
 .cta-button {
@@ -94,6 +98,7 @@ div {
   border-radius: 5px;
   font-size: 2vmin;
   cursor: pointer;
+  text-align: center;
 }
 
 .hero-button {
@@ -210,20 +215,19 @@ div {
 }
 
 .cta-inner {
-  width: 50vw;
+  min-width: 350px;
   margin: 55px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   border: .3vmin solid #a18356;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 2vmin;
 }
 
 .cta-all-text {
   width: 80%;
   margin: auto;
-  
 }
 
 .cta-title {
@@ -241,6 +245,45 @@ div {
   margin: auto;
 }
 
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2vmin;
+  margin: 2vmin;
+
+}
+
+.phone, .email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vmin;
+}
+
+.cta-subtitle {
+  font-size: 2.5vmin;
+  font-weight: 700;
+  text-align: center;
+  margin: 1vmin;
+}
+
+.phone-email {
+  font-size: 2.1vmin;
+  text-align: center;
+  
+}
+
+.phone-email a {
+  background: linear-gradient(#d1a86a, #a18356, #caa369) ;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: .7vmin 3vmin;
+  border-radius: 5px;
+  font-size: 2.3vmin;
+
+}
+
 .cta-button-box {
   display: flex;
   justify-content: center;
@@ -251,6 +294,7 @@ div {
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 7vmin;
